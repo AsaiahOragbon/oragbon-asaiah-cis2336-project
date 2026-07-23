@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ArtConnect connects artists, art lovers, and local creative events.">
+  <title>Home | ArtConnect</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="logo" href="index.html">Art<span>Connect</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation">☰</button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul><li><a href="index.html" class="active" aria-current="page">Home</a></li>
+<li><a href="pages/gallery.html">Gallery</a></li>
+<li><a href="pages/events.html">Events</a></li>
+<li><a href="pages/submit.html">Submit</a></li>
+<li><a href="pages/faq.html">FAQ</a></li>
+<li><a href="pages/references.html">References</a></li></ul>
+    </nav>
+  </div>
+</header>
+
+
+<main id="main">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">Houston's creative community</p>
+        <h1>Discover art. Meet artists. Join the community.</h1>
+        <p class="lead">ArtConnect gives emerging and professional artists a welcoming place to share artwork while helping visitors find original pieces, workshops, and local exhibitions.</p>
+        <div class="button-row">
+          <a class="btn" href="pages/gallery.html">Explore Gallery</a>
+          <a class="btn secondary" href="pages/submit.html">Submit Artwork</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="images/hero.svg" alt="Blue abstract ArtConnect hero artwork">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Featured artwork</p>
+          <h2>Fresh work from local creators</h2>
+        </div>
+        <a class="btn secondary" href="pages/gallery.html">View all artwork</a>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <img src="images/blue-horizon.svg" alt="Abstract blue curves titled Blue Horizon">
+          <div class="card-body"><span class="tag">Abstract</span><h3>Blue Horizon</h3><p>By Maya Thompson</p><p class="price">$280</p></div>
+        </article>
+        <article class="card">
+          <img src="images/city-rhythm.svg" alt="Geometric blue city artwork titled City Rhythm">
+          <div class="card-body"><span class="tag">Digital</span><h3>City Rhythm</h3><p>By Jordan Lee</p><p class="price">$160</p></div>
+        </article>
+        <article class="card">
+          <img src="images/quiet-mountains.svg" alt="Blue mountain landscape titled Quiet Mountains">
+          <div class="card-body"><span class="tag">Landscape</span><h3>Quiet Mountains</h3><p>By Sofia Ramirez</p><p class="price">Not for Sale</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt-section">
+    <div class="container">
+      <div class="section-heading">
+        <div><p class="eyebrow">Upcoming events</p><h2>Make your next art connection</h2></div>
+        <a class="btn secondary" href="pages/events.html">See all events</a>
+      </div>
+      <div class="grid">
+        <article class="card"><img src="images/event-open-studio.svg" alt="Open Studio Night event graphic"><div class="card-body"><h3>Open Studio Night</h3><p>July 25, 2026 · Sawyer Yards</p></div></article>
+        <article class="card"><img src="images/event-watercolor.svg" alt="Beginner Watercolor Workshop event graphic"><div class="card-body"><h3>Beginner Watercolor Workshop</h3><p>August 1, 2026 · Art League Houston</p></div></article>
+        <article class="card"><img src="images/event-art-walk.svg" alt="Downtown Art Walk event graphic"><div class="card-body"><h3>Downtown Art Walk</h3><p>August 8, 2026 · Market Square Park</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container interactive-showcase">
+      <div>
+        <p class="eyebrow">Interactive gallery</p>
+        <h2>Preview artwork with one click</h2>
+        <p class="lead">Choose a thumbnail to update the featured image. This JavaScript-powered image gallery satisfies the multimedia requirement while keeping the experience fast and accessible.</p>
+        <div class="thumbnail-row">
+          <button class="thumbnail-button active" data-image="images/blue-horizon.svg" data-alt="Blue Horizon abstract artwork"><img src="images/blue-horizon.svg" alt="Select Blue Horizon"></button>
+          <button class="thumbnail-button" data-image="images/community-circles.svg" data-alt="Community Circles mixed-media artwork"><img src="images/community-circles.svg" alt="Select Community Circles"></button>
+          <button class="thumbnail-button" data-image="images/morning-tide.svg" data-alt="Morning Tide watercolor artwork"><img src="images/morning-tide.svg" alt="Select Morning Tide"></button>
+        </div>
+      </div>
+      <div class="showcase-preview"><img id="showcase-image" src="images/blue-horizon.svg" alt="Blue Horizon abstract artwork"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container cta">
+      <div><h2>Ready to share your artwork?</h2><p>Use our beginner-friendly submission form and receive clear validation before sending.</p></div>
+      <a class="btn secondary" href="pages/submit.html">Start a Submission</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Developer contact</p><h2>Project information</h2></div></div>
+      <div class="contact-card">
+        <div class="card card-body"><h3>Developer</h3><p>Asaiah Oragbon</p></div>
+        <div class="card card-body"><h3>UH Email</h3><p><a href="aoragbon@cougarnet.uh.edu">aoragbon@cougarnet.uh.edu</a></p><p class="small"></p></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h2>ArtConnect</h2>
+      <p>Helping artists share their work and helping visitors discover Houston's creative community.</p>
+      <p>© 2026 ArtConnect. Student project by Asaiah Oragbon.</p>
+    </div>
+    <div>
+      <h3>Quick links</h3>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="pages/gallery.html">Gallery</a>
+        <a href="pages/events.html">Events</a>
+        <a href="pages/submit.html">Submit Artwork</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

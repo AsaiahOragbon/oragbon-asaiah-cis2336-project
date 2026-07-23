@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ArtConnect connects artists, art lovers, and local creative events.">
+  <title>Gallery | ArtConnect</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/script.js" defer></script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="logo" href="../index.html">Art<span>Connect</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation">☰</button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul><li><a href="../index.html">Home</a></li>
+<li><a href="gallery.html" class="active" aria-current="page">Gallery</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="submit.html">Submit</a></li>
+<li><a href="faq.html">FAQ</a></li>
+<li><a href="references.html">References</a></li></ul>
+    </nav>
+  </div>
+</header>
+
+
+<main id="main">
+  <section class="page-hero"><div class="container"><p class="eyebrow">Artwork gallery</p><h1>Explore original work</h1><p class="lead">Search by title or artist, or filter the collection by category.</p></div></section>
+  <section>
+    <div class="container">
+      <div class="controls">
+        <div><label for="artwork-search">Search artwork</label><input id="artwork-search" type="search" placeholder="Try “Maya” or “landscape”"></div>
+        <div><label for="category-filter">Category</label><select id="category-filter"><option value="all">All categories</option><option value="abstract">Abstract</option><option value="digital">Digital</option><option value="landscape">Landscape</option><option value="photography">Photography</option><option value="mixed-media">Mixed Media</option><option value="watercolor">Watercolor</option></select></div>
+      </div>
+      <div class="grid"><article class="card artwork-card" data-category="abstract" data-search="Blue Horizon Maya Thompson Abstract">
+      <img src="../images/blue-horizon.svg" alt="Blue Horizon by Maya Thompson">
+      <div class="card-body"><span class="tag">Abstract</span><h3>Blue Horizon</h3><p>By Maya Thompson</p><p class="price">$280</p></div>
+    </article>
+<article class="card artwork-card" data-category="digital" data-search="City Rhythm Jordan Lee Digital">
+      <img src="../images/city-rhythm.svg" alt="City Rhythm by Jordan Lee">
+      <div class="card-body"><span class="tag">Digital</span><h3>City Rhythm</h3><p>By Jordan Lee</p><p class="price">$160</p></div>
+    </article>
+<article class="card artwork-card" data-category="landscape" data-search="Quiet Mountains Sofia Ramirez Landscape">
+      <img src="../images/quiet-mountains.svg" alt="Quiet Mountains by Sofia Ramirez">
+      <div class="card-body"><span class="tag">Landscape</span><h3>Quiet Mountains</h3><p>By Sofia Ramirez</p><p class="price">Not for Sale</p></div>
+    </article>
+<article class="card artwork-card" data-category="photography" data-search="Windows of Time Daniel Brooks Photography">
+      <img src="../images/windows-time.svg" alt="Windows of Time by Daniel Brooks">
+      <div class="card-body"><span class="tag">Photography</span><h3>Windows of Time</h3><p>By Daniel Brooks</p><p class="price">$225</p></div>
+    </article>
+<article class="card artwork-card" data-category="mixed-media" data-search="Community Circles Amina Okafor Mixed Media">
+      <img src="../images/community-circles.svg" alt="Community Circles by Amina Okafor">
+      <div class="card-body"><span class="tag">Mixed Media</span><h3>Community Circles</h3><p>By Amina Okafor</p><p class="price">$340</p></div>
+    </article>
+<article class="card artwork-card" data-category="watercolor" data-search="Morning Tide Ethan Cole Watercolor">
+      <img src="../images/morning-tide.svg" alt="Morning Tide by Ethan Cole">
+      <div class="card-body"><span class="tag">Watercolor</span><h3>Morning Tide</h3><p>By Ethan Cole</p><p class="price">$190</p></div>
+    </article></div>
+      <div id="empty-state" class="empty-state"><h2>No artwork found</h2><p>Try a different search term or category.</p></div>
+    </div>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h2>ArtConnect</h2>
+      <p>Helping artists share their work and helping visitors discover Houston's creative community.</p>
+      <p>© 2026 ArtConnect. Student project by Asaiah Oragbon.</p>
+    </div>
+    <div>
+      <h3>Quick links</h3>
+      <div class="footer-links">
+        <a href="../index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="events.html">Events</a>
+        <a href="submit.html">Submit Artwork</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

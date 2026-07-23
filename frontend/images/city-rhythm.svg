@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+    <title id="title">City Rhythm</title><desc id="desc">Digital art by Jordan Lee</desc>
+    <rect width="960" height="540" fill="#EEF5FF"/>
+    
+        <rect x="70" y="70" width="760" height="420" rx="30" fill="#DCEBFF"/>
+        <path d="M120 420 L310 140 L480 380 L620 190 L800 420 Z" fill="#2F6CC0"/>
+        <circle cx="680" cy="140" r="55" fill="#123B7A"/>
+        
+    <rect x="0" y="455" width="960" height="85" fill="#123B7A" opacity=".94"/>
+    <text x="36" y="495" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="white">City Rhythm</text>
+    <text x="36" y="522" font-family="Arial, sans-serif" font-size="16" fill="#DCEBFF">Digital art by Jordan Lee</text>
+    </svg>
