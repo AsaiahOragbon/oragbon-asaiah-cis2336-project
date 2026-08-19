@@ -1,0 +1,12 @@
+{
+  "name": "artconnect-backend",
+  "version": "1.0.0",
+  "description": "Node.js and Express backend for the ArtConnect CIS 2336 project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
